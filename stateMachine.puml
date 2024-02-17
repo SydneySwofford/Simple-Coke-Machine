@@ -1,0 +1,22 @@
+
+'''Plantuml Coke Machine
+@startuml
+[*] --> State1
+State1 : IDLE
+
+State1 -->State2: Good Coin Inserted
+State2: WAITING_FOR_PURCHASE_PRICE
+State2 --> State4: Price Acheived
+
+State4:DISPENSING
+State4-->State1:Dispensing Complete
+
+State1-> State3:Bad Coin Inserted
+State3: ERROR
+State3->State1:Return to Idle
+
+State2-->State3: Bad Coin Inserted
+State3-->State2: Return to waiting
+
+
+@enduml
