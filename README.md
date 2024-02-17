@@ -4,7 +4,7 @@ By: Sydney Swofford
 
 Simple model based agent that implements the FSM of a coke machine
 
-## Video Walkthrough
+## Video Walkthroughs
 Demo-https://github.com/SydneySwofford/Simple-Coke-Machine/blob/main/CokeMachineDemo.7z
 
 State Diagram-https://github.com/SydneySwofford/Simple-Coke-Machine/blob/main/StateDiagramWalkthrough.7z
